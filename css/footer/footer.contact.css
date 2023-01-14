@@ -1,0 +1,10 @@
+.footer__contact ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.footer__contact ul li{
+    padding: .5rem .2rem;
+}

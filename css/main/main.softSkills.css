@@ -1,0 +1,10 @@
+.main__aside-col1--soft-skills ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.main__aside-col1--soft-skills ul li {
+    padding: .8rem 1.5rem;
+}

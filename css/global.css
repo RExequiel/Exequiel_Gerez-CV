@@ -1,3 +1,30 @@
+:root{
+    --primary-color: #0a377b;
+    --secondary-color: #eeeeee;
+}
+
 *{
     font-family: 'Raleway', sans-serif;
+    scroll-behavior: smooth;
+}
+
+body{
+    max-width: 75ch;
+    max-height: 720px;
+    margin: .5rem auto;
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+i, a, footer section ul li{
+    text-decoration: none;
+    color: var(--primary-color);
+    font-weight: bold;
+}
+
+li{
+    list-style-type: none;
 }
