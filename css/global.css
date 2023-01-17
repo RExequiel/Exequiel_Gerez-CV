@@ -1,6 +1,7 @@
 :root{
     --primary-color: #0a377b;
     --secondary-color: #eeeeee;
+    --prefer-color: #4488ee;
 }
 
 *{
@@ -12,6 +13,7 @@ body{
     max-width: 75ch;
     max-height: 720px;
     margin: .5rem auto;
+    padding: .5rem;
     background: rgb(34,193,195);
     background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
     background-repeat: no-repeat;
@@ -28,3 +30,20 @@ i, a, footer section ul li{
 li{
     list-style-type: none;
 }
+
+i {
+    animation: aliceTumbling infinite 15s alternate;
+  }
+  
+  @keyframes aliceTumbling {
+    0% {
+      transform: rotateX(0) translate3D(-50%, -50%, 0);
+    }
+    30% {
+        color: var(--prefer-color);
+    }
+    100% {
+      transform: rotateX(360deg) translate3D(-50%, -50%, 0);
+    }
+  }
+  

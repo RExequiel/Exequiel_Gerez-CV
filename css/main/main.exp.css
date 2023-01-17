@@ -1,0 +1,18 @@
+.main__article-col2--exp ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.main__article-col2--exp ul li{
+    max-width: 150px;
+    margin: .2rem;
+    padding: 0 1rem;
+    border: 2px solid var(--primary-color);
+}
+
+.main__article-col2--exp ul li:hover{
+    border: 2px dashed var(--secondary-color);
+    transition: .5s;
+}
