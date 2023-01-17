@@ -40,7 +40,7 @@ i {
       transform: rotateX(0) translate3D(-50%, -50%, 0);
     }
     30% {
-        color: var(--prefer-color);
+        color: #000;
     }
     100% {
       transform: rotateX(360deg) translate3D(-50%, -50%, 0);
