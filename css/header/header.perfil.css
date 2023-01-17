@@ -13,6 +13,7 @@
     border-radius: 50%;
     background-size: 100% auto;
     cursor: pointer;
+    border: 4px solid var(--primary-color);
 }
 
 .header__article--title h1{
